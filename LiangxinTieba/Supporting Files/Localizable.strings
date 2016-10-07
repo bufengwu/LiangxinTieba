@@ -1,0 +1,32 @@
+/* 
+  Localizable.strings
+  LiangxinTieba
+
+  Created by mac on 2016/9/27.
+  Copyright © 2016年 XYD. All rights reserved.
+*/
+
+"personal center" = "我";
+"find fun things" = "发现";
+"my home" = "首页";
+
+"My Bars" = "我的贴吧";
+"Surprising" = "热帖动态";
+"Personal Center" = "个人中心";
+
+"no more data" = "没有更多数据啦";
+
+"find hot article" = "hot 贴";
+"see random" = "任意门";
+
+"change account" = "切换账号";
+
+"my notice" = "我的关注";
+"my fans" = "关注我的";
+
+"message" = "聊天";
+
+"my article" = "我的帖子";
+"my reply" = "我的回复";
+"my collection" = "收藏";
+"setting" = "设置";

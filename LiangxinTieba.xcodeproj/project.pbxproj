@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04039B5F1D9D41DF00E373F1 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04039B5E1D9D41DF00E373F1 /* Default-568h@2x.png */; };
+		041B88CF1D9A11260005E8A3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 041B88CE1D9A11260005E8A3 /* main.m */; };
+		041B88D21D9A11260005E8A3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 041B88D11D9A11260005E8A3 /* AppDelegate.m */; };
+		041B88D51D9A11260005E8A3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 041B88D41D9A11260005E8A3 /* ViewController.m */; };
+		041B88D81D9A11260005E8A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 041B88D61D9A11260005E8A3 /* Main.storyboard */; };
+		041B88DA1D9A11260005E8A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 041B88D91D9A11260005E8A3 /* Assets.xcassets */; };
+		041B88DD1D9A11260005E8A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 041B88DB1D9A11260005E8A3 /* LaunchScreen.storyboard */; };
+		041B88F01D9A1B3D0005E8A3 /* LTTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 041B88EF1D9A1B3D0005E8A3 /* LTTabBarController.m */; };
+		041B88F31D9A1B6D0005E8A3 /* LTLeftDrawerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 041B88F21D9A1B6D0005E8A3 /* LTLeftDrawerViewController.m */; };
+		044C98331DA6324C000842AD /* DrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 044C98321DA6324C000842AD /* DrawerController.m */; };
+		045A169A1D9BBB37004C6700 /* CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 045A16981D9BBB37004C6700 /* CollectionViewCell.m */; };
+		045A169B1D9BBB37004C6700 /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 045A16991D9BBB37004C6700 /* CollectionViewCell.xib */; };
+		045A169F1D9BC2A4004C6700 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 045A169D1D9BC2A4004C6700 /* TableViewCell.m */; };
+		045A16A01D9BC2A4004C6700 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 045A169E1D9BC2A4004C6700 /* TableViewCell.xib */; };
+		04710EAE1D9CC608007B4B9B /* LiangxinTiebaSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04710EAD1D9CC608007B4B9B /* LiangxinTiebaSDK.framework */; };
+		04710EB31D9CF852007B4B9B /* LTBarDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04710EB11D9CF852007B4B9B /* LTBarDetailViewController.m */; };
+		04710EB41D9CF852007B4B9B /* LTBarDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04710EB21D9CF852007B4B9B /* LTBarDetailViewController.xib */; };
+		04710EB71D9D0299007B4B9B /* LTFindHotTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04710EB61D9D0299007B4B9B /* LTFindHotTableViewController.m */; };
+		04710EBA1D9D02C9007B4B9B /* LTFindRandomTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04710EB91D9D02C9007B4B9B /* LTFindRandomTableViewController.m */; };
+		048C41EA1D9DFECB005341EE /* LTPersonalDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 048C41E91D9DFECB005341EE /* LTPersonalDataSource.m */; };
+		04B103D01D9B965C0019BD25 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 04B103CF1D9B965C0019BD25 /* InfoPlist.strings */; };
+		04B103D51D9B973E0019BD25 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 04B103D41D9B973E0019BD25 /* Localizable.strings */; };
+		04FAA4891D9A60A100D60268 /* LTHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FAA4881D9A60A100D60268 /* LTHomeViewController.m */; };
+		04FAA48C1D9A624300D60268 /* LTFindViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FAA48B1D9A624300D60268 /* LTFindViewController.m */; };
+		04FAA48F1D9A624F00D60268 /* LTPersonalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FAA48E1D9A624F00D60268 /* LTPersonalViewController.m */; };
+		04FAA4951D9A682000D60268 /* LTUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FAA4941D9A682000D60268 /* LTUtils.m */; };
+		9CBA59219F37033BB1C5B799 /* libPods-LiangxinTieba.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C5632195853B83AD159A638 /* libPods-LiangxinTieba.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		04039B5E1D9D41DF00E373F1 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		041B88CA1D9A11260005E8A3 /* LiangxinTieba.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LiangxinTieba.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		041B88CE1D9A11260005E8A3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		041B88D01D9A11260005E8A3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		041B88D11D9A11260005E8A3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		041B88D31D9A11260005E8A3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		041B88D41D9A11260005E8A3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		041B88D71D9A11260005E8A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		041B88D91D9A11260005E8A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		041B88DC1D9A11260005E8A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		041B88DE1D9A11260005E8A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		041B88EE1D9A1B3D0005E8A3 /* LTTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTTabBarController.h; sourceTree = "<group>"; };
+		041B88EF1D9A1B3D0005E8A3 /* LTTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTTabBarController.m; sourceTree = "<group>"; };
+		041B88F11D9A1B6D0005E8A3 /* LTLeftDrawerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTLeftDrawerViewController.h; sourceTree = "<group>"; };
+		041B88F21D9A1B6D0005E8A3 /* LTLeftDrawerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTLeftDrawerViewController.m; sourceTree = "<group>"; };
+		044C98311DA6324C000842AD /* DrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawerController.h; sourceTree = "<group>"; };
+		044C98321DA6324C000842AD /* DrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawerController.m; sourceTree = "<group>"; };
+		045A16971D9BBB37004C6700 /* CollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewCell.h; sourceTree = "<group>"; };
+		045A16981D9BBB37004C6700 /* CollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewCell.m; sourceTree = "<group>"; };
+		045A16991D9BBB37004C6700 /* CollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
+		045A169C1D9BC2A4004C6700 /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		045A169D1D9BC2A4004C6700 /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
+		045A169E1D9BC2A4004C6700 /* TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+		04710EAD1D9CC608007B4B9B /* LiangxinTiebaSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LiangxinTiebaSDK.framework; path = "../../Library/Developer/Xcode/DerivedData/LiangxinTieba-ajbfrddqyezrmngldolgrxpjmask/Build/Products/Debug-iphoneos/LiangxinTiebaSDK.framework"; sourceTree = "<group>"; };
+		04710EB01D9CF852007B4B9B /* LTBarDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTBarDetailViewController.h; sourceTree = "<group>"; };
+		04710EB11D9CF852007B4B9B /* LTBarDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTBarDetailViewController.m; sourceTree = "<group>"; };
+		04710EB21D9CF852007B4B9B /* LTBarDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LTBarDetailViewController.xib; sourceTree = "<group>"; };
+		04710EB51D9D0299007B4B9B /* LTFindHotTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTFindHotTableViewController.h; sourceTree = "<group>"; };
+		04710EB61D9D0299007B4B9B /* LTFindHotTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTFindHotTableViewController.m; sourceTree = "<group>"; };
+		04710EB81D9D02C9007B4B9B /* LTFindRandomTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTFindRandomTableViewController.h; sourceTree = "<group>"; };
+		04710EB91D9D02C9007B4B9B /* LTFindRandomTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTFindRandomTableViewController.m; sourceTree = "<group>"; };
+		048C41E81D9DFECB005341EE /* LTPersonalDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTPersonalDataSource.h; sourceTree = "<group>"; };
+		048C41E91D9DFECB005341EE /* LTPersonalDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTPersonalDataSource.m; sourceTree = "<group>"; };
+		04B103CF1D9B965C0019BD25 /* InfoPlist.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = InfoPlist.strings; sourceTree = "<group>"; };
+		04B103D41D9B973E0019BD25 /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		04B103D61D9BAD0A0019BD25 /* tips.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tips.m; sourceTree = "<group>"; };
+		04FAA4871D9A60A100D60268 /* LTHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTHomeViewController.h; sourceTree = "<group>"; };
+		04FAA4881D9A60A100D60268 /* LTHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTHomeViewController.m; sourceTree = "<group>"; };
+		04FAA48A1D9A624300D60268 /* LTFindViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTFindViewController.h; sourceTree = "<group>"; };
+		04FAA48B1D9A624300D60268 /* LTFindViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTFindViewController.m; sourceTree = "<group>"; };
+		04FAA48D1D9A624F00D60268 /* LTPersonalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTPersonalViewController.h; sourceTree = "<group>"; };
+		04FAA48E1D9A624F00D60268 /* LTPersonalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTPersonalViewController.m; sourceTree = "<group>"; };
+		04FAA4931D9A682000D60268 /* LTUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTUtils.h; sourceTree = "<group>"; };
+		04FAA4941D9A682000D60268 /* LTUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTUtils.m; sourceTree = "<group>"; };
+		04FAA49A1D9A69FC00D60268 /* LTMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTMacro.h; sourceTree = "<group>"; };
+		04FAA49B1D9A6A7300D60268 /* LTPrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTPrefixHeader.pch; sourceTree = "<group>"; };
+		5C5632195853B83AD159A638 /* libPods-LiangxinTieba.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LiangxinTieba.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F093733E5BA9B31B6540189B /* Pods-LiangxinTieba.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LiangxinTieba.release.xcconfig"; path = "Pods/Target Support Files/Pods-LiangxinTieba/Pods-LiangxinTieba.release.xcconfig"; sourceTree = "<group>"; };
+		FBDD1D7B6FC51D7236E5F8F1 /* Pods-LiangxinTieba.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LiangxinTieba.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LiangxinTieba/Pods-LiangxinTieba.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		041B88C71D9A11260005E8A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CBA59219F37033BB1C5B799 /* libPods-LiangxinTieba.a in Frameworks */,
+				04710EAE1D9CC608007B4B9B /* LiangxinTiebaSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		041B88C11D9A11260005E8A3 = {
+			isa = PBXGroup;
+			children = (
+				EFD03A517AFAF829B826BBE8 /* Frameworks */,
+				041B88CC1D9A11260005E8A3 /* LiangxinTieba */,
+				A226157AF6D14099161196DC /* Pods */,
+				041B88CB1D9A11260005E8A3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		041B88CB1D9A11260005E8A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				041B88CA1D9A11260005E8A3 /* LiangxinTieba.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		041B88CC1D9A11260005E8A3 /* LiangxinTieba */ = {
+			isa = PBXGroup;
+			children = (
+				04FAA4921D9A67F700D60268 /* LTBase */,
+				041B88E91D9A19EA0005E8A3 /* LTFind */,
+				041B88E71D9A19D20005E8A3 /* LTHome */,
+				041B88EA1D9A19F50005E8A3 /* LTPersonal */,
+				041B88CD1D9A11260005E8A3 /* Supporting Files */,
+				041B88D01D9A11260005E8A3 /* AppDelegate.h */,
+				041B88D11D9A11260005E8A3 /* AppDelegate.m */,
+				041B88F11D9A1B6D0005E8A3 /* LTLeftDrawerViewController.h */,
+				041B88F21D9A1B6D0005E8A3 /* LTLeftDrawerViewController.m */,
+				041B88EE1D9A1B3D0005E8A3 /* LTTabBarController.h */,
+				041B88EF1D9A1B3D0005E8A3 /* LTTabBarController.m */,
+			);
+			path = LiangxinTieba;
+			sourceTree = "<group>";
+		};
+		041B88CD1D9A11260005E8A3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				041B88D91D9A11260005E8A3 /* Assets.xcassets */,
+				04039B5E1D9D41DF00E373F1 /* Default-568h@2x.png */,
+				04B103D41D9B973E0019BD25 /* Localizable.strings */,
+				041B88DE1D9A11260005E8A3 /* Info.plist */,
+				04B103CF1D9B965C0019BD25 /* InfoPlist.strings */,
+				041B88DB1D9A11260005E8A3 /* LaunchScreen.storyboard */,
+				041B88D61D9A11260005E8A3 /* Main.storyboard */,
+				041B88D31D9A11260005E8A3 /* ViewController.h */,
+				041B88D41D9A11260005E8A3 /* ViewController.m */,
+				041B88CE1D9A11260005E8A3 /* main.m */,
+				04B103D61D9BAD0A0019BD25 /* tips.m */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		041B88E71D9A19D20005E8A3 /* LTHome */ = {
+			isa = PBXGroup;
+			children = (
+				045A16971D9BBB37004C6700 /* CollectionViewCell.h */,
+				045A16981D9BBB37004C6700 /* CollectionViewCell.m */,
+				045A16991D9BBB37004C6700 /* CollectionViewCell.xib */,
+				04FAA4871D9A60A100D60268 /* LTHomeViewController.h */,
+				04FAA4881D9A60A100D60268 /* LTHomeViewController.m */,
+				04710EAF1D9CF7F7007B4B9B /* LTBarDetailViewController */,
+			);
+			path = LTHome;
+			sourceTree = "<group>";
+		};
+		041B88E91D9A19EA0005E8A3 /* LTFind */ = {
+			isa = PBXGroup;
+			children = (
+				04FAA48A1D9A624300D60268 /* LTFindViewController.h */,
+				04FAA48B1D9A624300D60268 /* LTFindViewController.m */,
+				04710EB51D9D0299007B4B9B /* LTFindHotTableViewController.h */,
+				04710EB61D9D0299007B4B9B /* LTFindHotTableViewController.m */,
+				04710EB81D9D02C9007B4B9B /* LTFindRandomTableViewController.h */,
+				04710EB91D9D02C9007B4B9B /* LTFindRandomTableViewController.m */,
+				045A169C1D9BC2A4004C6700 /* TableViewCell.h */,
+				045A169D1D9BC2A4004C6700 /* TableViewCell.m */,
+				045A169E1D9BC2A4004C6700 /* TableViewCell.xib */,
+			);
+			path = LTFind;
+			sourceTree = "<group>";
+		};
+		041B88EA1D9A19F50005E8A3 /* LTPersonal */ = {
+			isa = PBXGroup;
+			children = (
+				048C41E71D9DFEA0005341EE /* Model */,
+				04FAA48D1D9A624F00D60268 /* LTPersonalViewController.h */,
+				04FAA48E1D9A624F00D60268 /* LTPersonalViewController.m */,
+			);
+			path = LTPersonal;
+			sourceTree = "<group>";
+		};
+		04710EAF1D9CF7F7007B4B9B /* LTBarDetailViewController */ = {
+			isa = PBXGroup;
+			children = (
+				04710EB01D9CF852007B4B9B /* LTBarDetailViewController.h */,
+				04710EB11D9CF852007B4B9B /* LTBarDetailViewController.m */,
+				04710EB21D9CF852007B4B9B /* LTBarDetailViewController.xib */,
+			);
+			name = LTBarDetailViewController;
+			sourceTree = "<group>";
+		};
+		048C41E71D9DFEA0005341EE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				048C41E81D9DFECB005341EE /* LTPersonalDataSource.h */,
+				048C41E91D9DFECB005341EE /* LTPersonalDataSource.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		04FAA4921D9A67F700D60268 /* LTBase */ = {
+			isa = PBXGroup;
+			children = (
+				044C98311DA6324C000842AD /* DrawerController.h */,
+				044C98321DA6324C000842AD /* DrawerController.m */,
+				04FAA49A1D9A69FC00D60268 /* LTMacro.h */,
+				04FAA49B1D9A6A7300D60268 /* LTPrefixHeader.pch */,
+				04FAA4931D9A682000D60268 /* LTUtils.h */,
+				04FAA4941D9A682000D60268 /* LTUtils.m */,
+			);
+			path = LTBase;
+			sourceTree = "<group>";
+		};
+		A226157AF6D14099161196DC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FBDD1D7B6FC51D7236E5F8F1 /* Pods-LiangxinTieba.debug.xcconfig */,
+				F093733E5BA9B31B6540189B /* Pods-LiangxinTieba.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EFD03A517AFAF829B826BBE8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04710EAD1D9CC608007B4B9B /* LiangxinTiebaSDK.framework */,
+				5C5632195853B83AD159A638 /* libPods-LiangxinTieba.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		041B88C91D9A11260005E8A3 /* LiangxinTieba */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 041B88E11D9A11260005E8A3 /* Build configuration list for PBXNativeTarget "LiangxinTieba" */;
+			buildPhases = (
+				91205EE85A3CCCDF5725C90C /* [CP] Check Pods Manifest.lock */,
+				041B88C61D9A11260005E8A3 /* Sources */,
+				041B88C71D9A11260005E8A3 /* Frameworks */,
+				041B88C81D9A11260005E8A3 /* Resources */,
+				994826568200B2D772447CD7 /* [CP] Embed Pods Frameworks */,
+				D3899A0E4E174B1D83626178 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LiangxinTieba;
+			productName = LiangxinTieba;
+			productReference = 041B88CA1D9A11260005E8A3 /* LiangxinTieba.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		041B88C21D9A11260005E8A3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = XYD;
+				TargetAttributes = {
+					041B88C91D9A11260005E8A3 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 041B88C51D9A11260005E8A3 /* Build configuration list for PBXProject "LiangxinTieba" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 041B88C11D9A11260005E8A3;
+			productRefGroup = 041B88CB1D9A11260005E8A3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				041B88C91D9A11260005E8A3 /* LiangxinTieba */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		041B88C81D9A11260005E8A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04B103D01D9B965C0019BD25 /* InfoPlist.strings in Resources */,
+				04B103D51D9B973E0019BD25 /* Localizable.strings in Resources */,
+				04039B5F1D9D41DF00E373F1 /* Default-568h@2x.png in Resources */,
+				045A16A01D9BC2A4004C6700 /* TableViewCell.xib in Resources */,
+				045A169B1D9BBB37004C6700 /* CollectionViewCell.xib in Resources */,
+				041B88DD1D9A11260005E8A3 /* LaunchScreen.storyboard in Resources */,
+				04710EB41D9CF852007B4B9B /* LTBarDetailViewController.xib in Resources */,
+				041B88DA1D9A11260005E8A3 /* Assets.xcassets in Resources */,
+				041B88D81D9A11260005E8A3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		91205EE85A3CCCDF5725C90C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		994826568200B2D772447CD7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LiangxinTieba/Pods-LiangxinTieba-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D3899A0E4E174B1D83626178 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LiangxinTieba/Pods-LiangxinTieba-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		041B88C61D9A11260005E8A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				044C98331DA6324C000842AD /* DrawerController.m in Sources */,
+				048C41EA1D9DFECB005341EE /* LTPersonalDataSource.m in Sources */,
+				045A169F1D9BC2A4004C6700 /* TableViewCell.m in Sources */,
+				04710EB71D9D0299007B4B9B /* LTFindHotTableViewController.m in Sources */,
+				04FAA48C1D9A624300D60268 /* LTFindViewController.m in Sources */,
+				041B88F31D9A1B6D0005E8A3 /* LTLeftDrawerViewController.m in Sources */,
+				04710EB31D9CF852007B4B9B /* LTBarDetailViewController.m in Sources */,
+				041B88D51D9A11260005E8A3 /* ViewController.m in Sources */,
+				04710EBA1D9D02C9007B4B9B /* LTFindRandomTableViewController.m in Sources */,
+				041B88D21D9A11260005E8A3 /* AppDelegate.m in Sources */,
+				04FAA4951D9A682000D60268 /* LTUtils.m in Sources */,
+				04FAA4891D9A60A100D60268 /* LTHomeViewController.m in Sources */,
+				041B88F01D9A1B3D0005E8A3 /* LTTabBarController.m in Sources */,
+				04FAA48F1D9A624F00D60268 /* LTPersonalViewController.m in Sources */,
+				045A169A1D9BBB37004C6700 /* CollectionViewCell.m in Sources */,
+				041B88CF1D9A11260005E8A3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		041B88D61D9A11260005E8A3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				041B88D71D9A11260005E8A3 /* Base */,
+			);
+			name = Main.storyboard;
+			path = .;
+			sourceTree = "<group>";
+		};
+		041B88DB1D9A11260005E8A3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				041B88DC1D9A11260005E8A3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			path = .;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		041B88DF1D9A11260005E8A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		041B88E01D9A11260005E8A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		041B88E21D9A11260005E8A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FBDD1D7B6FC51D7236E5F8F1 /* Pods-LiangxinTieba.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/LiangxinTieba/LTBase/LTPrefixHeader.pch";
+				INFOPLIST_FILE = "LiangxinTieba/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.westlake.LiangxinTieba;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		041B88E31D9A11260005E8A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F093733E5BA9B31B6540189B /* Pods-LiangxinTieba.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/LiangxinTieba/LTBase/LTPrefixHeader.pch";
+				INFOPLIST_FILE = "LiangxinTieba/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.westlake.LiangxinTieba;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		041B88C51D9A11260005E8A3 /* Build configuration list for PBXProject "LiangxinTieba" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				041B88DF1D9A11260005E8A3 /* Debug */,
+				041B88E01D9A11260005E8A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		041B88E11D9A11260005E8A3 /* Build configuration list for PBXNativeTarget "LiangxinTieba" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				041B88E21D9A11260005E8A3 /* Debug */,
+				041B88E31D9A11260005E8A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 041B88C21D9A11260005E8A3 /* Project object */;
+}
